@@ -54,6 +54,7 @@ async def on_message(message):
             await message.channel.send("Invalid command syntax. Usage: !remind <time in seconds>")
 
     # Music Functionality
+    #Function is running successfully but doesn't work
     elif message.content.startswith("!play"):
         try:
             url = message.content.split()[1]
